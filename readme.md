@@ -116,14 +116,14 @@ Go to a file named `Vars.py` in the `biisal` Named File and add all the variable
 An example of `Vars.py` file:
 
 ```py
-API_ID=12345
-API_HASH=esx576f8738x883f3sfzx83
-BOT_TOKEN=Your_Bot_Token
-BIN_CHANNEL=-100
-PORT=8080
-FQDN=your_server_ip
-OWNER_ID=your_user_id
-DATABASE_URL=mongodb_uri
+API_ID=28671918
+API_HASH=c92b387142fe889740967b453c28d364
+BOT_TOKEN=7529441813:AAGwmdjLkzM5oRdpkClbKYz1go1t1alESfA
+BIN_CHANNEL=-
+PORT=9090
+FQDN=79.127.227.161
+OWNER_ID=Umair_Ahmed_Panhwer
+DATABASE_URL=mongodb+srv://UMAIR:UMAIR 123@cluster0.9ehgh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
 ```
 `API_ID` : Goto [my.telegram.org](https://my.telegram.org) to obtain this.
 
