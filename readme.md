@@ -119,10 +119,10 @@ An example of `Vars.py` file:
 API_ID=28671918
 API_HASH=c92b387142fe889740967b453c28d364
 BOT_TOKEN=7529441813:AAGwmdjLkzM5oRdpkClbKYz1go1t1alESfA
-BIN_CHANNEL=-
-PORT=9090
-FQDN=79.127.227.161
-OWNER_ID=Umair_Ahmed_Panhwer
+BIN_CHANNEL=-1002480131358
+PORT=8080
+FQDN=0.0.0.0
+OWNER_ID=6689366151
 DATABASE_URL=mongodb+srv://UMAIR:UMAIR 123@cluster0.9ehgh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
 ```
 `API_ID` : Goto [my.telegram.org](https://my.telegram.org) to obtain this.
@@ -143,7 +143,7 @@ DATABASE_URL=mongodb+srv://UMAIR:UMAIR 123@cluster0.9ehgh.mongodb.net/?retryWrit
 
  Option Vars
 
-`UPDATES_CHANNEL` : Put a Public Channel Username, so every user have to Join that channel to use the bot. Must add bot to channel as Admin to work properly.
+`UPDATES_CHANNEL` : UBZ_BOTS.
 
 `BANNED_CHANNELS` : Put IDs of Banned Channels where bot will not work. You can add multiple IDs & separate with <kbd>Space</kbd>.
 
