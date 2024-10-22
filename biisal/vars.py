@@ -38,7 +38,7 @@ class Var(object):
     if HAS_SSL:
         URL = "https://{}/".format(FQDN)
     else:
-        URL = "http://{}/".format(FQDN)
+        URL = "http://{important-ulla-professor738-5173c941.koyeb.app/}/".format(FQDN)
     DATABASE_URL = str(getenv('mongodb+srv://UMAIR:UMAIR 123@cluster0.9ehgh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', ''))
     UPDATES_CHANNEL = str(getenv('UBZ_BOTS', 'bisal_files')) 
     BANNED_CHANNELS = list(set(int(x) for x in str(getenv("BANNED_CHANNELS", "-1002446979598")).split()))   
