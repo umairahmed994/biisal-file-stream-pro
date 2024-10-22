@@ -12,7 +12,7 @@ bisal_grp = "https://t.me/+PA8OPL2Zglk3MDM1"
 
 class Var(object):
     MULTI_CLIENT = False
-    API_ID = int(getenv('28671918', ''))
+    API_ID = int(getenv('28671918', '28671918'))
     API_HASH = str(getenv('c92b387142fe889740967b453c28d364', ''))
     BOT_TOKEN = str(getenv('7529441813:AAGwmdjLkzM5oRdpkClbKYz1go1t1alESfA' , ''))
     name = str(getenv('name', '@Martin_Movies_Bot'))
@@ -40,7 +40,7 @@ class Var(object):
     else:
         URL = "http://{important-ulla-professor738-5173c941.koyeb.app/}/".format(FQDN)
     DATABASE_URL = str(getenv('mongodb+srv://UMAIR:UMAIR 123@cluster0.9ehgh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', ''))
-    UPDATES_CHANNEL = str(getenv('UBZ_BOTS', 'bisal_files')) 
+    UPDATES_CHANNEL = str(getenv('UBZ_BOTS', 'UBZ_BOTS')) 
     BANNED_CHANNELS = list(set(int(x) for x in str(getenv("BANNED_CHANNELS", "-1002446979598")).split()))   
-    BAN_CHNL = list(set(int(x) for x in str(getenv("BAN_CHNL", "")).split()))   
+    BAN_CHNL = list(set(int(x) for x in str(getenv("BAN_CHNL", "Database 4")).split()))   
     BAN_ALERT = str(getenv('BAN_ALERT' , '<b>ʏᴏᴜʀ ᴀʀᴇ ʙᴀɴɴᴇᴅ ᴛᴏ ᴜsᴇ ᴛʜɪs ʙᴏᴛ.Pʟᴇᴀsᴇ ᴄᴏɴᴛᴀᴄᴛ Umair_Ahmed_Panhwer ᴛᴏ ʀᴇsᴏʟᴠᴇ ᴛʜᴇ ɪssᴜᴇ!!</b>'))
